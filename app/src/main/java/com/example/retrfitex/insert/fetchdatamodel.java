@@ -1,16 +1,17 @@
 package com.example.retrfitex.insert;
 
 public class fetchdatamodel {
-    String id,name,username,password;
+    String id, title,username,password, image;
+
 
     public fetchdatamodel() {
     }
 
-    public fetchdatamodel(String id, String name, String username, String password) {
+    public fetchdatamodel(String id, String title, String image) {
         this.id = id;
-        this.name = name;
-        this.username = username;
-        this.password = password;
+        this.title = title;
+        this.image =image;
+
     }
 
     public String getId() {
@@ -21,27 +22,19 @@ public class fetchdatamodel {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getUsername() {
-        return username;
+    public String getImage() {
+        return image;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
+    public void setImage(String image) {
+        this.image = image;
     }
 }

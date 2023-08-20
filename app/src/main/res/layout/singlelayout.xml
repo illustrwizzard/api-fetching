@@ -10,19 +10,11 @@
         android:id="@+id/nameshow"
 
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:padding="10sp"
-        android:layout_height="wrap_content"
-        android:id="@+id/usernameshow"
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/id_img"/>
 
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:padding="10sp"
-        android:layout_height="wrap_content"
-        android:id="@+id/passwordshow"
-
-        />
 
 </LinearLayout>

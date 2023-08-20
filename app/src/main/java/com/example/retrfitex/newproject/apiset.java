@@ -29,6 +29,6 @@ public interface apiset {
             @Field("username") String username,
             @Field("password") String password);
 
-    @GET("fetchdata.php")
+    @GET("typefetch.php")
     Call<List<fetchdatamodel>> getdata();
 }
